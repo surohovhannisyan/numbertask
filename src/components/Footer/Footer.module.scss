@@ -1,0 +1,17 @@
+.footerWrapper {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgrey;
+  background: lightgrey;
+
+  .footerText {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

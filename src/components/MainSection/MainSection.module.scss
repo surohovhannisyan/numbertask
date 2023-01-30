@@ -1,0 +1,28 @@
+.mainSectionWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: calc(100vh - 171px);
+
+  .cardsWrapper {
+    width: 100%;
+    height: calc(100vh - 201px);
+    padding: 15px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    background: rgb(243, 243, 243);
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  .instructionsWrapper {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(248, 248, 248);
+  }
+}
